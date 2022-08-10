@@ -139,3 +139,26 @@ nav {
     align-items: center;
     gap: 4rem;
 }
+
+/*======================HEADER=======================*/
+header {
+    position: relative;
+    top: 5rem;
+    overflow: hidden;
+    height: 70vh;
+    margin-bottom: 5rem;
+
+}
+
+.header_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 5rem;
+    height: 100%;
+}
+
+.header_left p {
+    margin: 1rem 0 2.4rem;
+
+}
